@@ -297,6 +297,7 @@ void nimble_port_ll_task_func(void* args) {
 
 int main(void) {
   logger.Init();
+  int a = 33;
 
   nrf_drv_clock_init();
 
